@@ -64,3 +64,6 @@ h1 {
 .content {
 	width: 900px;
 }
+.content ul {
+	text-align: center;
+}
