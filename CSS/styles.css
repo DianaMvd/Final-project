@@ -1,6 +1,10 @@
 body {
-	background-image: url(../images/harry_potter_and_the_deathly_hallows-wallpaper-1920x1200.jpg);
+	background-image: url(../images/background.jpg);
 }
+.content blockquote p img {
+	padding-right: 20px;
+}
+
 
 table {
 	background-color: #999;
@@ -23,16 +27,11 @@ table {
 	color: #000;
 	width: 900px;
 }
-.wrapper {
-	width: 900px;
-	background-color: #666;
-	margin-right: auto;
-	margin-left: auto;
-	border-bottom-width: thick;
-	border-bottom-color: #333;
-	border-bottom-style: solid;
-	height: auto;
+img {
+	margin-right: 20px;
+	margin-left: 20px;
 }
+
 .content {
 	width: 900px;
 	background-color: #666;
@@ -56,14 +55,16 @@ h1 {
 }
 .content p {
 	text-align: justify;
-	margin-right: auto;
-	margin-left: auto;
 	width: 850px;
 	background-color: #666;
+	margin: auto;
 }
-.content {
-	width: 900px;
+img {
+	padding-right: 0px;
+	padding-bottom: 20px;
+	padding-top: 0px;
+	padding-left: 20px;
 }
-.content ul {
+.content ul h2 {
 	text-align: center;
 }
